@@ -9,7 +9,6 @@ The controller is built around the **Raspberry Pi Pico W**, using Modbus and I²
 
 * **Vaisala GMP252** – CO₂ probe
 * **Vaisala HMP60** – temperature and humidity sensor
-* **Sensirion SDP610** – differential pressure sensor
 
 A **Produal MIO 12-V** module manages the fan speed via a 0–10 V output, while a relay on GPIO27 controls the CO₂ injection valve. The system architecture is divided into functional tasks: sensor reading, user interface, cloud communication, and safety control.
 
