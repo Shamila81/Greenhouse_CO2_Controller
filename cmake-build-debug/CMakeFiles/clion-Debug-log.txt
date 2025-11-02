@@ -1,0 +1,51 @@
+"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\buddh\OneDrive\Desktop\project_demo\project_demo\rp2040-freertos-greenhouse_v2 -B C:\Users\buddh\OneDrive\Desktop\project_demo\project_demo\rp2040-freertos-greenhouse_v2\cmake-build-debug
+Using PICO_SDK_PATH from environment ('C:\pico\pico-sdk')
+PICO_SDK_PATH is C:/pico/pico-sdk
+Target board (PICO_BOARD) is 'pico_w'.
+Using board configuration from C:/pico/pico-sdk/src/boards/include/boards/pico_w.h
+Defaulting platform (PICO_PLATFORM) to 'rp2040' based on PICO_BOARD setting.
+Defaulting compiler (PICO_COMPILER) to 'pico_arm_cortex_m0plus_gcc' since not specified.
+Configuring toolchain based on PICO_COMPILER 'pico_arm_cortex_m0plus_gcc'
+Defaulting PICO_GCC_TRIPLE to 'arm-none-eabi'
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/pico/Pico_SDK_v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/pico/Pico_SDK_v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/pico/Pico_SDK_v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+Build type is Debug
+Using regular optimized debug build (set PICO_DEOPTIMIZED_DEBUG=1 to de-optimize)
+CMake Warning at C:/pico/pico-sdk/tools/Findpicotool.cmake:28 (message):
+  No installed picotool with version 2.0.0 found - building from source
+
+  It is recommended to build and install picotool separately, or to set
+  PICOTOOL_FETCH_FROM_GIT_PATH to a common directory for all your SDK
+  projects
+Call Stack (most recent call first):
+  C:/pico/pico-sdk/tools/CMakeLists.txt:138 (find_package)
+  C:/pico/pico-sdk/src/cmake/on_device.cmake:33 (pico_init_picotool)
+  C:/pico/pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt:57 (pico_add_dis_output)
+  C:/pico/pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt:101 (pico_define_boot_stage2)
+
+
+Downloading Picotool
+-- Found Python3: C:/Python313/python.exe (found version "3.13.2") found components: Interpreter
+TinyUSB available at C:/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040; enabling build support for USB.
+Compiling TinyUSB with CFG_TUSB_DEBUG=1
+BTstack available at C:/pico/pico-sdk/lib/btstack
+cyw43-driver available at C:/pico/pico-sdk/lib/cyw43-driver
+Pico W Bluetooth build support available.
+lwIP available at C:/pico/pico-sdk/lib/lwip
+Pico W Wi-Fi build support available.
+mbedtls available at C:/pico/pico-sdk/lib/mbedtls
+-- Configuring done (26.1s)
+-- Generating done (0.6s)
+-- Build files have been written to: C:/Users/buddh/OneDrive/Desktop/project_demo/project_demo/rp2040-freertos-greenhouse_v2/cmake-build-debug

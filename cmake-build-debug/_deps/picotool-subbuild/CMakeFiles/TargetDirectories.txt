@@ -1,0 +1,3 @@
+C:/Users/buddh/OneDrive/Desktop/project_demo/project_demo/rp2040-freertos-greenhouse_v2/cmake-build-debug/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
+C:/Users/buddh/OneDrive/Desktop/project_demo/project_demo/rp2040-freertos-greenhouse_v2/cmake-build-debug/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/buddh/OneDrive/Desktop/project_demo/project_demo/rp2040-freertos-greenhouse_v2/cmake-build-debug/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir
